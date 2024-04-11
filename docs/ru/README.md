@@ -1,6 +1,6 @@
-# Java Intensive – Andersen
+# Содержание
 
-## Содержание
+[..](../)
 
 * [План курса](./course-plan.ru.md)
 * [План занятий](./skeleton.ru.md)
