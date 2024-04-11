@@ -1,6 +1,6 @@
-# Java Intensive – Andersen
+# Table Contents
 
-## Table Contents
+[..](../)
 
 * [Course Plan](./course-plan.md)
 * [Lessons Plan](./skeleton.md)
