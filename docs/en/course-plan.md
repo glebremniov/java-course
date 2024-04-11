@@ -1,5 +1,7 @@
 # Course Plan
 
+[..](./README.md)
+
 ## Session 1: Introduction to Git and SOLID Principles
 - Basics of Git: commands, branching, merging
 - Introduction to SOLID principles
