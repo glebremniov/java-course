@@ -1,4 +1,6 @@
-# Course Plan for Beginner Developers
+# Course Plan
+
+[..](./README.md)
 
 ## 1. Git
 - Introduction to version control systems
