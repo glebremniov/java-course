@@ -2,6 +2,16 @@ package com.andersenlab.lesson2;
 
 public class PaymentProcessor {
 
+  private final OrderValidator validator;
+  private final PaymentPublisher publisher;
+  private final PaymentMapper mapper;
+
+  public PaymentProcessor(OrderValidator validator, PaymentPublisher publisher, PaymentMapper mapper) {
+    this.validator = validator;
+    this.publisher = publisher;
+    this.mapper = mapper;
+  }
+
   /**
    * Processes payment for the given order.
    *
@@ -9,8 +19,12 @@ public class PaymentProcessor {
    * @return true if payment is successful, false otherwise
    */
   public boolean processPayment(Order order) {
-    // Simulate payment processing logic
-    double amount = order.getAmount();
-    return amount > 0 && amount < 1000;  // Assume orders under $1000 are always processed successfully
+    if (!validator.validate(order)) {
+      return false;
+    }
+
+    var payment = mapper.fromOrder(order);
+    publisher.publish(payment);
+    return true;
   }
 }
