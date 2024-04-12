@@ -1,46 +1,63 @@
 package com.andersenlab.lesson2;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.when;
 
-import java.util.stream.Stream;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
+@ExtendWith(MockitoExtension.class)
 class PaymentProcessorTest {
 
-  private final PaymentProcessor paymentProcessor = new PaymentProcessor();
+  @Mock
+  private OrderValidator validator;
 
-  @ParameterizedTest
-  @MethodSource(value = "testParams")
-  @DisplayName("Ensure Payment Processor is Called Correctly")
-  void ensurePaymentProcessorInteraction(double orderAmount, boolean expected) {
+  @Mock
+  private PaymentPublisher publisher;
+
+  @Mock
+  private PaymentMapper mapper;
+
+  @InjectMocks
+  private PaymentProcessor paymentProcessor;
+
+  @Test
+  void should_ProcessPayment_When_GivenValidOrder() {
     // Given
-    Order mockOrder = mock(Order.class);
-    when(mockOrder.getAmount()).thenReturn(orderAmount);
+    var order = new Order(100.0);
+    var payment = new Payment(100.0);
+    when(validator.validate(order)).thenReturn(true);
+    when(mapper.fromOrder(order)).thenReturn(payment);
 
     // When
-    boolean actual = paymentProcessor.processPayment(mockOrder);
+    var actual = paymentProcessor.processPayment(order);
 
     // Then
-    assertThat(actual).isEqualTo(expected);
-    verify(mockOrder).getAmount();  // Then that getAmount was called on the order
+    assertThat(actual).isTrue();
+    verify(validator).validate(order);
+    verify(mapper).fromOrder(order);
+    verify(publisher).publish(payment);
   }
 
-  private static Stream<Arguments> testParams() {
-    return Stream.of(
-        Arguments.of(100.0, true),
-        Arguments.of(999.99, true),
-        Arguments.of(0.0, false),
-        Arguments.of(-0.0, false),
-        Arguments.of(-100.0, false),
-        Arguments.of(1000.0, false),
-        Arguments.of(Double.MAX_VALUE, false)
-    );
-  }
+  @Test
+  void should_DoNothing_When_GivenInvalidOrder() {
+    // Given
+    var order = new Order(5000.0);
+    when(validator.validate(order)).thenReturn(false); // <- order is marked as invalid
 
+    // When
+    var actual = paymentProcessor.processPayment(order);
+
+    // Then
+    assertThat(actual).isFalse();
+    verify(validator).validate(order);
+    verify(mapper, never()).fromOrder(order);
+    verifyNoInteractions(publisher);
+  }
 }
