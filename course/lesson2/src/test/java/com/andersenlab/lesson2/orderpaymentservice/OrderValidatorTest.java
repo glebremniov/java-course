@@ -1,4 +1,4 @@
-package com.andersenlab.lesson2;
+package com.andersenlab.lesson2.orderpaymentservice;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;

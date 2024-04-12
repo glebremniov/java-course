@@ -1,4 +1,4 @@
-package com.andersenlab.lesson2;
+package com.andersenlab.lesson2.orderpaymentservice;
 
 import java.util.Objects;
 
