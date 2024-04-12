@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.andersenlab.lesson2.StringUtils;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.extension.ExtensionContext;
@@ -18,6 +17,18 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 class ParameterizedTests {
+
+  static class StringUtils {
+
+    public static boolean isBlank(String input) {
+      return input == null || input.trim().isEmpty();
+    }
+
+    public static boolean isPalindrome(String input) {
+      return new StringBuilder(input).reverse().toString().equals(input);
+    }
+
+  }
 
   @Nested
   class IsPalindrome {
