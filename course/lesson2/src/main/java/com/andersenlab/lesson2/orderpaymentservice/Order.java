@@ -1,4 +1,4 @@
-package com.andersenlab.lesson2;
+package com.andersenlab.lesson2.orderpaymentservice;
 
 public class Order {
   private final double amount;
