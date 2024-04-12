@@ -7,4 +7,4 @@
 * [JUnit](./JUnit.md)
 * [Mockito](./Mockito.md)
 * [AssertJ](./AssertJ.md)
-* CI/CD
+* [Code examples](https://github.com/glebremniov/java-course/tree/master/course/lesson2)
