@@ -1,3 +1,5 @@
+[..](./README.md)
+
 Here are a few ideas for services with simple business logic that are suitable for demonstrating how to write tests using JUnit and Mockito. These examples cover various aspects of testing from verifying return values of methods to mocking dependencies and checking interactions between objects.
 
 ### 1. Inventory Management Service

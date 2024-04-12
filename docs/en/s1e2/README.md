@@ -3,6 +3,7 @@
 [..](../README.md)
 
 ## Table of contents
+* [Testing pyramid](./testing-pyramid.md)
 * [Unit Testing 101](./unit-testing-101.md)
 * [JUnit](./JUnit.md)
 * [Mockito](./Mockito.md)

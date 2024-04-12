@@ -3,6 +3,7 @@
 [..](../README.md)
 
 ## Содержание
+* [Пирамида тестирования](./testing-pyramid.ru.md)
 * [Unit Тестирование](./unit-testing-101.ru.md)
 * [JUnit](./JUnit.ru.md)
 * [Mockito](./Mockito.ru.md)
