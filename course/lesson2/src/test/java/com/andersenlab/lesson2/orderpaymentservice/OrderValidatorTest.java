@@ -1,9 +1,6 @@
 package com.andersenlab.lesson2.orderpaymentservice;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
 
 import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -18,15 +15,13 @@ class OrderValidatorTest {
   @MethodSource(value = "testParams")
   void should_ReturnCorrectValue_When_GivenAmount(double orderAmount, boolean expected) {
     // Given
-    Order mockOrder = mock(Order.class);
-    when(mockOrder.getAmount()).thenReturn(orderAmount);
+    Order order = new Order(orderAmount);
 
     // When
-    boolean actual = validator.validate(mockOrder);
+    boolean actual = validator.validate(order);
 
     // Then
     assertThat(actual).isEqualTo(expected);
-    verify(mockOrder).getAmount();  // Then that getAmount was called on the order
   }
 
   private static Stream<Arguments> testParams() {
