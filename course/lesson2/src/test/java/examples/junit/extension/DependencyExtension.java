@@ -12,12 +12,12 @@ public class DependencyExtension implements BeforeAllCallback, AfterAllCallback,
   private final Dependency dependency = new Dependency();
 
   @Override
-  public void afterAll(ExtensionContext extensionContext) {
+  public void beforeAll(ExtensionContext extensionContext) {
     dependency.configure();
   }
 
   @Override
-  public void beforeAll(ExtensionContext extensionContext) {
+  public void afterAll(ExtensionContext extensionContext) {
     dependency.cleanUp();
   }
 
