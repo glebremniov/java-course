@@ -17,3 +17,4 @@
     * [JSON](./s1e3/json.ru.md)
     * [YAML](./s1e3/yaml.ru.md)
     * [TOML](./s1e3/toml.ru.md)
+    * [XML](./s1e3/xml.ru.md)
