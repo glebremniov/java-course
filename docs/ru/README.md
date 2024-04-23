@@ -18,3 +18,4 @@
     * [YAML](./s1e3/yaml.ru.md)
     * [TOML](./s1e3/toml.ru.md)
     * [XML](./s1e3/xml.ru.md)
+    * [Properties](./s1e3/properties.ru.md)

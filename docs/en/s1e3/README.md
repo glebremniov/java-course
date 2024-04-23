@@ -8,3 +8,4 @@
 * [YAML](./yaml.md)
 * [TOML](./toml.md)
 * [XML](./xml.md)
+* [Properties](./properties.md)
