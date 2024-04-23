@@ -6,3 +6,4 @@
 * [Serialization in Java](./serialization.md)
 * [JSON](./json.md)
 * [YAML](./yaml.md)
+* [TOML](./toml.md)
