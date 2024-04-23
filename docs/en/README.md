@@ -16,6 +16,3 @@
       * [Serialization in Java](./s1e3/serialization.md)
       * [JSON](./s1e3/json.md)
       * [YAML](./s1e3/yaml.md)
-      * [TOML](./s1e3/toml.md)
-      * [XML](./s1e3/xml.md)
-      * [Properties](./s1e3/properties.md)
