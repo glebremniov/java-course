@@ -7,3 +7,4 @@
 * [JSON](./json.ru.md)
 * [YAML](./yaml.ru.md)
 * [TOML](./toml.ru.md)
+* [XML](./xml.ru.md)

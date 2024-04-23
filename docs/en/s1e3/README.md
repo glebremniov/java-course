@@ -7,3 +7,4 @@
 * [JSON](./json.md)
 * [YAML](./yaml.md)
 * [TOML](./toml.md)
+* [XML](./xml.md)
