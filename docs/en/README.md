@@ -1,8 +1,16 @@
 # Table Contents
 
-[..](../)
+[..](../README.md)
 
 * [Course Plan](./course-plan.md)
 * [Lessons Plan](./skeleton.md)
     * Lesson 1 (WIP)
     * [Lesson 2](./s1e2/README.md)
+      * [Testing pyramid](./s1e2/testing-pyramid.md)
+      * [Unit Testing 101](./s1e2/unit-testing-101.md)
+      * [JUnit](./s1e2/JUnit.md)
+      * [Mockito](./s1e2/Mockito.md)
+      * [AssertJ](./s1e2/AssertJ.md)
+      * [Code examples](https://github.com/glebremniov/java-course/tree/master/course/lesson2)
+    * [Lesson 3](./s1e3/README.md)
+      * [Serialization in Java](./s1e3/serialization.md)
