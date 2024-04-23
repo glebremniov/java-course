@@ -1,4 +1,4 @@
 # Java Intensive Docs – Andersen
 
-* [en](./en/README.md)
-* [ru](./ru/README.md)
+* [English](./en/README.md)
+* [На русском](./ru/README.md)

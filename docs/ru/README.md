@@ -1,8 +1,21 @@
 # Содержание
 
-[..](../)
+[..](../README.md)
 
 * [План курса](./course-plan.ru.md)
 * [План занятий](./skeleton.ru.md)
   * Урок 1 (WIP)
   * [Урок 2](./s1e2/README.md)
+    * [Пирамида тестирования](./s1e2/testing-pyramid.ru.md)
+    * [Unit Тестирование](./s1e2/unit-testing-101.ru.md)
+    * [JUnit](./s1e2/JUnit.ru.md)
+    * [Mockito](./s1e2/Mockito.ru.md)
+    * [AssertJ](./s1e2/AssertJ.ru.md)
+    * [Примеры кода](https://github.com/glebremniov/java-course/tree/master/course/lesson2)
+  * [Урок 3](./s1e3/README.md)
+    * [Сериализация в Java](./s1e3/serialization.ru.md)
+    * [JSON](./s1e3/json.ru.md)
+    * [YAML](./s1e3/yaml.ru.md)
+    * [TOML](./s1e3/toml.ru.md)
+    * [XML](./s1e3/xml.ru.md)
+    * [Properties](./s1e3/properties.ru.md)
