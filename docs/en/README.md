@@ -14,3 +14,5 @@
       * [Code examples](https://github.com/glebremniov/java-course/tree/master/course/lesson2)
     * [Lesson 3](./s1e3/README.md)
       * [Serialization in Java](./s1e3/serialization.md)
+      * [JSON](./s1e3/json.md)
+      * [YAML](./s1e3/yaml.md)

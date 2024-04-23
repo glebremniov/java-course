@@ -14,3 +14,5 @@
     * [Примеры кода](https://github.com/glebremniov/java-course/tree/master/course/lesson2)
   * [Урок 3](./s1e3/README.md)
     * [Сериализация в Java](./s1e3/serialization.ru.md)
+    * [JSON](./s1e3/json.ru.md)
+    * [YAML](./s1e3/yaml.ru.md)
