@@ -19,3 +19,4 @@
       * [TOML](./s1e3/toml.md)
       * [XML](./s1e3/xml.md)
       * [Properties](./s1e3/properties.md)
+      * [Stream API](./s1e3/stream-api.md)
