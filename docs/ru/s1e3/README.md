@@ -9,3 +9,5 @@
 * [TOML](./toml.ru.md)
 * [XML](./xml.ru.md)
 * [Properties](./properties.ru.md)
+* [Stream API](./stream-api.ru.md)
+* [Optional](./optional.ru.md)
