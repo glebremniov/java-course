@@ -20,3 +20,4 @@
     * [XML](./s1e3/xml.ru.md)
     * [Properties](./s1e3/properties.ru.md)
     * [Stream API](./s1e3/stream-api.ru.md)
+    * [Optional](./s1e3/optional.ru.md)

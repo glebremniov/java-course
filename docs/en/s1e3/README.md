@@ -10,3 +10,4 @@
 * [XML](./xml.md)
 * [Properties](./properties.md)
 * [Stream API](./stream-api.md)
+* [Optional](./optional.md)
