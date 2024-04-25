@@ -24,4 +24,5 @@
   * [Урок 4](./s1e4/README.md)
     * [HTTP](./s1e4/http.ru.md)
     * [REST](./s1e4/rest.ru.md)
+    * [SOAP](./s1e4/soap.ru.md)
     * [Java Servlets](./s1e4/servlets.ru.md)
