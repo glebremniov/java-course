@@ -21,3 +21,7 @@
     * [Properties](./s1e3/properties.ru.md)
     * [Stream API](./s1e3/stream-api.ru.md)
     * [Optional](./s1e3/optional.ru.md)
+  * [Урок 4](./s1e4/README.md)
+    * [HTTP](./s1e4/http.ru.md)
+    * [REST](./s1e4/rest.ru.md)
+    * [Java Servlets](./s1e4/servlets.ru.md)
