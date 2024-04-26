@@ -5,6 +5,9 @@
       <module name="course.lesson2" target="21" />
       <module name="course.lesson2.main" target="21" />
       <module name="course.lesson2.test" target="21" />
+      <module name="course.lesson4" target="21" />
+      <module name="course.lesson4.main" target="21" />
+      <module name="course.lesson4.test" target="21" />
       <module name="course.main" target="21" />
       <module name="course.test" target="21" />
     </bytecodeTargetLevel>
