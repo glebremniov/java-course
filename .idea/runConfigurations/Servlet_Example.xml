@@ -14,8 +14,6 @@
         <option name="sourceFilePath" value="course/lesson4/Dockerfile" />
       </settings>
     </deployment>
-    <method v="2">
-      <option name="Gradle.BeforeRunTask" enabled="false" tasks="clean war" externalProjectPath="$PROJECT_DIR$/course/lesson4" vmOptions="" scriptParameters="" />
-    </method>
+    <method v="2" />
   </configuration>
 </component>
