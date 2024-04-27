@@ -1,8 +1,8 @@
-FROM gradle:8.6.0-jdk21 as java-build
+FROM gradle:8.7-jdk21 as java-build
 
+WORKDIR /home/gradle/src
 # Add write permissions
 COPY --chown=gradle:gradle . /home/gradle/src
-WORKDIR /home/gradle/src
 
 # Build war file
 RUN gradle war --no-daemon
