@@ -27,6 +27,7 @@
     * [SOAP](./s1e4/soap.ru.md)
     * [Java Servlets](./s1e4/servlets.ru.md)
   * [Урок 5](./s1e5/README.md)
+    * [Реляционные БД](./s1e5/relational-db.md)
     * [SQL](./s1e5/sql.md)
     * [ACID](./s1e5/acid.md)
     * [Уровни изоляций транзакций](./s1e5/transaction-isolation-levels.md)
