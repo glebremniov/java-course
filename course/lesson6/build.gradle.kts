@@ -11,14 +11,8 @@ repositories {
 
 dependencies {
   implementation(libs.hibernate.core)
-  implementation(libs.logback.classic)
+  implementation(libs.bundles.log4j)
   runtimeOnly(libs.h2)
-
-  compileOnly(libs.lombok)
-  annotationProcessor(libs.lombok)
-
-  testCompileOnly(libs.lombok)
-  testAnnotationProcessor(libs.lombok)
 }
 
 tasks.test {
