@@ -10,7 +10,9 @@ repositories {
 }
 
 dependencies {
-  implementation(libs.h2)
+  implementation(libs.hibernate.core)
+  implementation(libs.bundles.log4j)
+  runtimeOnly(libs.h2)
 }
 
 tasks.test {
