@@ -16,4 +16,4 @@ CREATE TABLE IF NOT EXISTS test_users (
     age INT
 );
 
-INSERT INTO users (id, name, age) VALUES (default, 'John Doe', 22)
+INSERT INTO test_users (id, name, age) VALUES (default, 'John Doe', 22)
