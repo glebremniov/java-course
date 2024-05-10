@@ -103,6 +103,7 @@ public class HibernateUserRepository implements UserRepository {
 
   private void rollback(Transaction transaction, Exception e) {
     if (transaction != null) {
+      log.error("Rollback transaction");
       transaction.rollback();
     }
 
