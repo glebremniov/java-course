@@ -23,13 +23,9 @@ repositories {
 
 dependencies {
   implementation(libs.spring.boot.starter.actuator)
-  implementation(libs.spring.boot.starter.data.jpa)
   implementation(libs.spring.boot.starter.web)
-  implementation(libs.liquibase.core)
-  implementation(libs.mapstruct)
   compileOnly(libs.lombok)
   developmentOnly(libs.spring.boot.devtools)
-  runtimeOnly(libs.h2)
   annotationProcessor(libs.spring.boot.configuration.processor)
   annotationProcessor(libs.lombok)
   annotationProcessor(libs.mapstruct.processor)

@@ -16,8 +16,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson6/course.lesson6.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson6/course.lesson6.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson6/course.lesson6.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson6/course.lesson6.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/course.lesson7.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/course.lesson7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/course.lesson7.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/course.lesson7.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/course.lesson7.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/course.lesson7.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/api/course.lesson7.api.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/api/course.lesson7.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/api/course.lesson7.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/api/course.lesson7.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/api/course.lesson7.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/api/course.lesson7.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/demo/course.lesson7.demo.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/demo/course.lesson7.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/demo/course.lesson7.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/demo/course.lesson7.demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/demo/course.lesson7.demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/demo/course.lesson7.demo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/service/course.lesson7.service.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/service/course.lesson7.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/service/course.lesson7.service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/service/course.lesson7.service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson7/service/course.lesson7.service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson7/service/course.lesson7.service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-course.iml" filepath="$PROJECT_DIR$/.idea/java-course.iml" />
     </modules>
   </component>
