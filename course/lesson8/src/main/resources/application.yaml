@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: lesson8
+  #  datasource:
+  #    url: jdbc:postgresql://localhost:5432/lesson8
+  #    username: username
+  #    password: password
+  #    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  docker:
+    compose:
+      file: ./course/lesson8/compose.yaml
+
+application:
+  security:
+    jwt:
+      secret-key: 827c941269609215f91b871495b07952934190ba2b177932366902cd80e8e0a1
+      expiration: 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days

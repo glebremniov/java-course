@@ -10,3 +10,4 @@ include("lesson7:service")
 findProject(":lesson7:api")?.name = "api"
 findProject(":lesson7:demo")?.name = "demo"
 findProject(":lesson7:service")?.name = "service"
+include("lesson8")
