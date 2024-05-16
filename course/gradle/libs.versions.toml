@@ -9,6 +9,7 @@ servlet-api = "4.0.1"
 lombok = "1.18.32"
 mapstruct = "1.5.5.Final"
 spring-boot = "3.2.5"
+jjwt = "0.12.5"
 
 [libraries]
 h2 = { group = "com.h2database", name = "h2", version.ref = "h2" }
@@ -19,6 +20,10 @@ lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" 
 mapstruct = { group = "org.mapstruct", name = "mapstruct", version.ref = "mapstruct" }
 mapstruct-processor = { group = "org.mapstruct", name = "mapstruct-processor", version.ref = "mapstruct" }
 postgresql = { group = "org.postgresql", name = "postgresql" }
+
+jjwt-api = { group = "io.jsonwebtoken", name = "jjwt-api", version.ref = "jjwt" }
+jjwt-impl = { group = "io.jsonwebtoken", name = "jjwt-impl", version.ref = "jjwt" }
+jjwt-jackson = { group = "io.jsonwebtoken", name = "jjwt-jackson", version.ref = "jjwt" }
 
 spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator" }
 spring-boot-starter-data-jpa = { group = "org.springframework.boot", name = "spring-boot-starter-data-jpa" }
@@ -43,6 +48,7 @@ assertj-core = { group = "org.assertj", name = "assertj-core", version.ref = "as
 
 [bundles]
 mockito = ["mockito-core", "mockito-junit-jupiter"]
+jjwt = ["jjwt-api", "jjwt-impl", "jjwt-jackson"]
 
 [plugins]
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
