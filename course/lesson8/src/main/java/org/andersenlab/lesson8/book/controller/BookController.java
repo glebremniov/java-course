@@ -40,6 +40,11 @@ public class BookController {
         .orElseGet(this::notFound);
   }
 
+  @GetMapping("/{author}")
+  public ResponseEntity<List<BookResponseDto>> findAllByAuthor(@PathVariable String author) {
+    return ResponseEntity.ok(service.findAllByAuthor(author));
+  }
+
   private <T> ResponseEntity<T> notFound() {
     return ResponseEntity.notFound().build();
   }

@@ -38,4 +38,13 @@ public class BookService {
         .flatMap(repository::findById)
         .map(bookMapper::toDto);
   }
+
+  public List<BookResponseDto> findAllByAuthor(String author) {
+    Objects.requireNonNull(author);
+
+    return repository.findAllByIdAuthor(author)
+        .stream()
+        .map(bookMapper::toDto)
+        .toList();
+  }
 }
