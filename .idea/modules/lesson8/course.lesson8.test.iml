@@ -16,6 +16,7 @@
     <orderEntry type="library" name="Gradle: io.jsonwebtoken:jjwt-impl:0.12.5" level="project" />
     <orderEntry type="library" name="Gradle: io.jsonwebtoken:jjwt-jackson:0.12.5" level="project" />
     <orderEntry type="library" name="Gradle: io.jsonwebtoken:jjwt-api:0.12.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.mapstruct:mapstruct:1.5.5.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:3.2.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-test:6.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:3.2.5" level="project" />
